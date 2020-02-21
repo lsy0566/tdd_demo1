@@ -31,6 +31,6 @@ public class TestCalculator {
     public void testSubtractError() {
         Calculator calc = new Calculator();
         int result = calc.subtract(10, 20);
-        assertEquals(10, result, "결과는 10이어야 합니다.");
+        assertEquals(10, result, "결과는 10이어야 합니다!");
     }
 }
